@@ -46,5 +46,9 @@ public class Main {
         System.out.println("New speed: " + bigTruck.getSpeed());
 
         System.out.println("\nDone.");
+
+        // this will not work, so when actually run, I delete this
+        // Vehicle newVehicle = new Vehicle();
+        // newVehicle.carBreak(5, 5);
     }
 }

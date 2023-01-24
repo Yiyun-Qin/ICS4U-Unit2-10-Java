@@ -5,7 +5,7 @@
 * @version 1.0
 * @since   2022-10-27
 */
-public class Vehicle {
+abstract class AbstractVehicle {
     /**
      * The car color.
      */
@@ -31,7 +31,7 @@ public class Vehicle {
     * @param tire The tire numbers
     */
 
-    public Vehicle(String color, int maxSpeed, int tire) {
+    Vehicle(String color, int maxSpeed, int tire) {
         this.color = color;
         this.maxinumSpeed = maxSpeed;
         this.tireNum = tire;
